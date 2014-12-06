@@ -3613,7 +3613,6 @@ public final class Settings {
         public static final String KEYGUARD_TOGGLE_TORCH = "keyguard_toggle_torch";
 
         /**
-         * This preference enables showing the power menu on LockScreen.
          * @hide
          */
         public static final String LOCKSCREEN_ENABLE_POWER_MENU = "lockscreen_enable_power_menu";
@@ -3813,6 +3812,35 @@ public final class Settings {
          * @hide
          */
         public static final String VOLUME_LINK_NOTIFICATION = "volume_link_notification";
+
+	/**
+         * Network traffic indicator, goes from least to greatest significant bitwise
+         * 0 = Display up-stream traffic if set
+         * 1 = Display down-stream traffic if set
+         * 2 = Show as Byte/s if set
+         * 16-31 = Refresh interval(ms) min: 250 max: 32750 default: 1000
+         * @hide
+         */
+        public static final String NETWORK_TRAFFIC_STATE = "network_traffic_state";
+
+        /**
+         * Whether or not to hide the network traffic indicator when there is no activity
+         * @hide
+         */
+        public static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
+
+        /**
+         * Network traffic inactivity threshold (default is 10 kBs)
+         * @hide
+         */
+        public static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
+
+        /**
+         * Whether to disable showing arrows in network traffic indicators
+         * @hide
+         */
+        public static final String NETWORK_TRAFFIC_HIDEARROW = "network_traffic_hidearrow";
+
         
         /** @hide */
         public static final Validator KEY_VALIDATOR = new Validator() {
