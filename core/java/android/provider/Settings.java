@@ -4013,6 +4013,12 @@ public final class Settings {
         };
 
         /**
+         * Three Finger Gesture from Oppo
+         * @hide
+         */
+        public static final String THREE_FINGER_GESTURE = "three_finger_gesture";
+
+        /**
          * Whether user can swap the order of the Alert Slider.
          * * Whether user can invert the order of the Alert Slider.
          * 0: Default
