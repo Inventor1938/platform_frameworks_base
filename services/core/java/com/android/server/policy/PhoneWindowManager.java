@@ -3875,7 +3875,6 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         final int flags = event.getFlags();
         final int keyCode = event.getKeyCode();
         final boolean keyguardOn = keyguardOn();
-        final int repeatCount = event.getRepeatCount();
         final int metaState = event.getMetaState();
         final int repeatCount = event.getRepeatCount();
         final int source = event.getSource();
