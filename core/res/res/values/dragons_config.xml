@@ -83,5 +83,8 @@
 
     <!-- Whether device has physical tri state switch -->
     <bool name="config_hasAlertSlider">false</bool>
+
+    <!-- Wether device has dash charging support -->
+    <bool name="config_hasDashCharger">false</bool>
 </resources>
 
