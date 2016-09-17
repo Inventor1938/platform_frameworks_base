@@ -34,4 +34,9 @@
   <java-symbol type="string" name="global_action_search" />
   <java-symbol type="string" name="global_action_voicesearch" />
 
+  <!-- Button Brightness -->
+  <java-symbol type="integer" name="config_buttonBrightnessSettingMinimum" />
+  <java-symbol type="integer" name="config_buttonBrightnessSettingMaximum" />
+  <java-symbol type="integer" name="config_buttonBrightnessSettingDefault" />
+
 </resources>
