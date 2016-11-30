@@ -3712,6 +3712,12 @@ public final class Settings {
             }
         };
 
+        /**
+          * Whether to show the negociated charger current in the lockscreen
+          * @hide
+          */
+         public static final String LOCKSCREEN_BATTERY_INFO = "lockscreen_battery_info";
+ 
 	/**
 	 * Enable blocking wakelock
 	 * @hide
