@@ -20,4 +20,11 @@
 
     <!-- Recents task locking button -->
     <dimen name="recents_task_view_header_lock_button_padding">44dp</dimen>
+
+    <!-- Clear-All recents FAB -->
+    <dimen name="floating_action_button_height">56dp</dimen>
+    <dimen name="floating_action_button_width">56dp</dimen>
+    <dimen name="floating_action_button_translation_z">6dp</dimen>
+    <dimen name="floating_action_button_margin_side">48dp</dimen>
+    <dimen name="floating_action_button_margin_bottom">62dp</dimen>
 </resources>
