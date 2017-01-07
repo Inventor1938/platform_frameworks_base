@@ -86,5 +86,8 @@
 
     <!-- Wether device has dash charging support -->
     <bool name="config_hasDashCharger">false</bool>
+
+    <!-- sRGB sysfs path -->
+    <string name="config_srgb_path"></string>
 </resources>
 
