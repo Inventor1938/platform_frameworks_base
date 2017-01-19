@@ -223,14 +223,8 @@ public class RecentsView extends FrameLayout {
         // Update the top level view's visibilities
         if (stack.getTaskCount() > 0) {
             hideEmptyView();
-            if (mFloatingButton != null) {
-                mFloatingButton.setVisibility(View.VISIBLE);
-            }
         } else {
             showEmptyView(R.string.recents_empty_message);
-            if (mFloatingButton != null) {
-                mFloatingButton.setVisibility(View.GONE);
-            }
         }
     }
 
@@ -317,6 +311,9 @@ public class RecentsView extends FrameLayout {
         if (RecentsDebugFlags.Static.EnableStackActionButton) {
             mStackActionButton.bringToFront();
         }
+        if (mFloatingButton != null) {
+            mFloatingButton.setVisibility(View.GONE);
+        }
     }
 
     /**
@@ -329,6 +326,10 @@ public class RecentsView extends FrameLayout {
         if (RecentsDebugFlags.Static.EnableStackActionButton) {
             mStackActionButton.bringToFront();
         }
+        if (mFloatingButton != null) {
+            mFloatingButton.setVisibility(View.VISIBLE);
+        }
+        setOnClickListener(null);
     }
 
     public void startFABanimation() {
