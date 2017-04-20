@@ -75,4 +75,16 @@
   <java-symbol type="drawable" name="ic_audio_notification_new" />
   <java-symbol type="drawable" name="ic_audio_notification_mute_new" />
   <java-symbol type="drawable" name="ic_audio_notification_mute_alpha" />
+
+  <!-- Shutdown/reboot screen -->
+  <java-symbol type="layout" name="shutdown_layout" />
+  <java-symbol type="color" name="shutdown_background" />
+  <java-symbol type="color" name="shutdown_primary_text" />
+  <java-symbol type="color" name="shutdown_progress_tint" />
+  <java-symbol type="dimen" name="shutdown_margin" />
+  <java-symbol type="dimen" name="shutdown_logo_margin_top" />
+  <java-symbol type="dimen" name="shutdown_primary_text_margin_top" />
+  <java-symbol type="id" name="shutdown_logo" />
+  <java-symbol type="id" name="shutdown_message" />
+  <java-symbol type="id" name="shutdown_progress" />
 </resources>
