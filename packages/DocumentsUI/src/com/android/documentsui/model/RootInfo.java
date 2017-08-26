@@ -328,7 +328,7 @@ public class RootInfo implements Durable, Parcelable, Comparable<RootInfo> {
 
     public Drawable loadDrawerIcon(Context context) {
         if (derivedIcon != 0) {
-            return IconUtils.applyTintColor(context, derivedIcon, R.color.item_root_icon);
+            return context.getDrawable(derivedIcon);
         } else {
             return IconUtils.loadPackageIcon(context, authority, icon);
         }
